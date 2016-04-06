@@ -1,3 +1,4 @@
+```
 // A demonstration of using scalaz.\/ (disjunctions) with flatMap and map,
 // and how to sweeten things with for-comprehensions.
 
@@ -50,3 +51,4 @@ scala> for {
      |   addThree <- evenDisjunction("2 + 3 is uneven", two + 3)
      | } yield addThree
 res22: scalaz.\/[String,Int] = -\/(2 + 3 is uneven)
+```
